@@ -55,8 +55,7 @@ byte mac[] = { 0x00, 0x11, 0x22, 0x33, 0x44, 0x55 }; // replace with your device
 const char* topic = "arduino-sample";
 
 void connect() {
-//	char hostname[] = "iot.eclipse.org";
-	char hostname[] = "aceone.se";
+	char hostname[] = "iot.eclipse.org";
 	int port = 1883;
 	sprintf(printbuf, "Connecting to %s:%d\n", hostname, port);
 	Serial.print(printbuf);
